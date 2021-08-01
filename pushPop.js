@@ -10,3 +10,12 @@ var remove = newNumbers.pop();
 var remove = newNumbers.pop();
 // console.log(remove);
 console.log(newNumbers);
+//How to Add New Elements at the Beginning of an Array in JavaScript
+var newNumbersAddBegining = [20, 23, 25, 26, 30];
+var addBegining = newNumbersAddBegining.unshift(45,60,33);
+console.log(newNumbersAddBegining);
+
+//How to remove New Elements at the Beginning of an Array in JavaScript
+var newNumbersRemoveBegining = [20, 23, 25, 26, 30,55,88,99];
+var removeBegining = newNumbersRemoveBegining.shift();
+console.log(newNumbersRemoveBegining); 
